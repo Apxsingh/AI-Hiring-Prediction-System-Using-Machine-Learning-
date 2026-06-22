@@ -224,9 +224,12 @@ AI-Based-Hiring-Prediction-System/
 │   └── resumes.csv
 │
 ├── images/
-│   ├── hiring_distribution.png
+│   ├── experience_distribution.png
 │   ├── confusion_matrix.png
-│   └── feature_importance.png
+│   ├── feature_importance.png
+|   ├── education_analysis.png
+|   ├── salary_distribution.png
+|   ├── education_analysis.png
 │
 ├── main/
 │   └── AI_Hiring_Prediction.ipynb
@@ -240,6 +243,98 @@ AI-Based-Hiring-Prediction-System/
 ```
 
 ---
+
+## 🚀 Clone and Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Apxsingh/AI-Hiring-Prediction-System-Using-Machine-Learning-.git
+```
+
+### 2️⃣ Navigate to the Project Directory
+
+```bash
+cd AI-Based-Hiring-Prediction-System
+```
+
+### 3️⃣ Create a Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+```
+
+### 4️⃣ Activate the Virtual Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+### 5️⃣ Install Required Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6️⃣ Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+### 7️⃣ Open the Notebook
+
+Navigate to:
+
+```text
+main/AI_Hiring_Prediction.ipynb
+```
+
+and run all cells.
+
+---
+
+## 💻 Alternative: Run in VS Code
+
+1. Open the project folder in VS Code.
+2. Install the Python and Jupyter extensions.
+3. Open:
+
+```text
+main/AI_Hiring_Prediction.ipynb
+```
+
+4. Select the Python environment.
+5. Click **Run All Cells**.
+
+---
+
+## 📦 Requirements
+
+The project requires:
+
+- Python 3.10+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+- Joblib
+- Jupyter Notebook
+
+All dependencies can be installed using:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## 🚀 Future Improvements
 
